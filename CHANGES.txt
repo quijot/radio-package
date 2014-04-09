@@ -1,0 +1,9 @@
+v0.0.3, 09 abr 2014 -- Better instructions in README.
+
+
+v0.0.2, 09 mar 2014 -- Add/update/delete radios interface.
+                     - json radio list instead python dict.
+
+
+v0.0.1, 08 mar 2014 -- Initial version.
+
