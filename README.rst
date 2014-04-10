@@ -45,6 +45,7 @@ To do
 - use curl instead mplayer if available
 - use cvlc instead mplayer if available
 - what more?
+- help me at https://github.com/quijot/radio-package
 
 Author
 ======

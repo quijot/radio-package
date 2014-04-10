@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='radio',
-    version='0.0.3',
+    version='0.0.4',
     author='Santiago Pestarini',
     author_email='santiago@pestarini.com.ar',
     packages=['radio'],
@@ -11,5 +11,5 @@ setup(
     url='http://pypi.python.org/pypi/radio/',
     license='LICENSE.txt',
     description='Just listen to the radio.',
-    long_description=open('README.txt').read(),
+    long_description=open('README.rst').read(),
 )
