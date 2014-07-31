@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='radio',
-    version='0.0.4',
+    version='0.0.5',
     author='Santiago Pestarini',
     author_email='santiago@pestarini.com.ar',
     packages=['radio'],

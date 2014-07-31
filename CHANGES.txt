@@ -1,3 +1,6 @@
+v0.0.5, 30 jul 2014 -- Updated some links.
+
+
 v0.0.4, 09 abr 2014 -- Add repo uri.
 
 
