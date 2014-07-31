@@ -24,7 +24,7 @@
         "name": "Eco Radio Rosario FM 92.3"
     }, 
     "metro": {
-        "url": "http://201.212.5.144/metro", 
+        "url": " rtmp://edgeamericaspushlivefs.fplive.net/edgeamericaspushlive-live/streamMetroRadio -novideo", 
         "name": "Metro FM 95.1"
     }, 
     "elmundo": {
@@ -104,7 +104,7 @@
         "name": "Red Nacional de Medios Alternativos"
     }, 
     "vorterix": {
-        "url": "http://184.173.77.4:9776", 
+        "url": "http://www.radiolatina.info:9776/", 
         "name": "Vorterix FM 103.1"
     }, 
     "madre": {
@@ -158,5 +158,13 @@
     "dp": {
         "url": "http://active.telecomcdn.com/delplata/delplata", 
         "name": "Del Plata AM 1030"
+    }, 
+    "nr": {
+        "url": "http://streamlky.alsolnet.com:8270/sc_rad39", 
+        "name": "Nacional Rock FM 93.7"
+    }, 
+    "ic": {
+        "url": "http://streaming.radiolinksmedia.com:8580/", 
+        "name": "Radio Igualdad Cultural"
     }
 }
