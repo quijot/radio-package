@@ -24,7 +24,7 @@
         "name": "Eco Radio Rosario FM 92.3"
     }, 
     "metro": {
-        "url": " rtmp://edgeamericaspushlivefs.fplive.net/edgeamericaspushlive-live/streamMetroRadio -novideo", 
+        "url": "http://65.60.52.122:8615/metro.mp3", 
         "name": "Metro FM 95.1"
     }, 
     "elmundo": {
@@ -44,7 +44,7 @@
         "name": "Radio Continental AM 590"
     }, 
     "rp": {
-        "url": "http://201.212.5.144/audio959-rockandpop", 
+        "url": "http://199.217.118.9:9988", 
         "name": "Rock&Pop FM 95.9"
     }, 
     "lt8": {
@@ -104,7 +104,7 @@
         "name": "Red Nacional de Medios Alternativos"
     }, 
     "vorterix": {
-        "url": "http://www.radiolatina.info:9776/", 
+        "url": "http://199.217.118.10:9776", 
         "name": "Vorterix FM 103.1"
     }, 
     "madre": {
@@ -166,5 +166,9 @@
     "ic": {
         "url": "http://streaming.radiolinksmedia.com:8580/", 
         "name": "Radio Igualdad Cultural"
+    }, 
+    "750": {
+        "url": "http://vivo.radioam750.com.ar:8000/vivo.mp3", 
+        "name": "AM750 - LRL 203 AM750 - Buenos Aires"
     }
 }
