@@ -14,16 +14,25 @@ Run in terminal (with superuser privilegies)::
 Usage
 =====
 
+Help
+----
+
 Show some help::
 
     $ radio
     $ radio -h
     $ radio --help
 
+List radios
+-----------
+
 List available radios::
 
     $ radio -l          # List available radios
     $ radio --list-all  # List radios and url
+
+Play radios
+-----------
 
 Listen to the radio::
 
@@ -33,6 +42,9 @@ where <radio_id> must be in the radio list as shown above.
     
 *Turn off* the radio by pressing "q" (as it uses mplayer).
 
+Add/update radios
+-----------------
+
 Add/update radios (with superuser privileges)::
 
     $ radio --add <radio_id> <radio_name> <radio_url>
@@ -40,6 +52,9 @@ Add/update radios (with superuser privileges)::
 For example::
 
     $ radio --add madre "Radio Madre AM 530" http://200.68.81.65:8000/am530
+
+Remove radios
+-------------
 
 Remove radios (with superuser privileges)::
 
@@ -66,4 +81,5 @@ License
 =======
 
 radio is licensed under the *do What The Fuck you want to Public License*, WTFPL. See the LICENSE file.
+
 
