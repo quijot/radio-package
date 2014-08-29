@@ -1,23 +1,30 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
+
 from sys import argv
 from radio.control import *
 
 
+err_n_params = 'Error: Not enough or too many parameters\n\n%s' % usage()
+
+
 if len(argv) < 2:
     print(usage())
-elif argv[1] == '-l':
+elif argv[1] in ['-l', '--list']:
     show_radio_list()
-elif argv[1] == '-a':
+elif argv[1] in ['--list-all']:
+    show_radio_list(urls=True)
+elif argv[1] in ['--add']:
     if len(argv) != 5:
-        print('Error: Not enough or too many parameters.\n\n%s' % usage())
+        print(err_n_params)
     else:
         add(argv[2], argv[3], argv[4])
-elif argv[1] == '-d':
+elif argv[1] in ['--remove']:
     if len(argv) != 3:
-        print('Error: Not enough or too many parameters.\n\n%s' % usage())
+        print(err_n_params)
     else:
         delete(argv[2])
 else:
     play(argv[1])
+

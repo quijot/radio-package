@@ -12,24 +12,27 @@ f.close()
 
 
 def usage():
-    usage = """
-    Usage:
-    $ radio <radio_id>			Plays radio_id. Press q to quit.
-    $ radio -l				Lists available radios.
-    $ radio -a radio_id "radio name" url	Add/update radio_id into radio list.
-    $ radio -d radio_id			Delete radio_id from radio list.
+    usage = """Usage:
+    
+    $ radio radio_id            Play radio_id. Press <q> to quit.
+    $ radio [-h|--help]         Show this usage help.
+    $ radio -l|--list           List available radios.
+    $ radio --list-all          List available radios and their urls.
+    $ radio --add radio_id "radio name" url
+                                Add/update radio_id into radio list.
+    $ radio --remove radio_id   Remove radio_id from radio list.
     """
     return usage
 
 
-def show_radio_list():
+def show_radio_list(urls=False):
     rl = []
     for radio_id in radio_list:
         if len(radio_id) >= 8:
             tab = '\t'
         else:
             tab = '\t\t'
-        rl.append('%s%s%s' % (radio_id, tab, radio_list[radio_id]['name']))
+        rl.append('%s%s%s%s' % (radio_id, tab, radio_list[radio_id]['name'], '\n\t\t%s' % radio_list[radio_id]['url'] if urls else ''))
         rl.sort()
     for r in rl: print(r)
 
@@ -55,3 +58,4 @@ def play(radio_id):
         print(usage())
     else:
         os.system('mplayer %s' % radio_list[radio_id]['url'])
+
