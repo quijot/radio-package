@@ -159,11 +159,11 @@
         "url": "http://active.telecomcdn.com/delplata/delplata", 
         "name": "Del Plata AM 1030"
     }, 
-    "nr": {
+    "nacrock": {
         "url": "http://streamlky.alsolnet.com:8270/sc_rad39", 
         "name": "Nacional Rock FM 93.7"
     }, 
-    "ic": {
+    "idcult": {
         "url": "http://streaming.radiolinksmedia.com:8580/", 
         "name": "Radio Igualdad Cultural"
     }, 

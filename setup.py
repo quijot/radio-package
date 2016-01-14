@@ -2,9 +2,9 @@ from distutils.core import setup
 
 setup(
     name='radio',
-    version='0.0.5',
+    version='0.0.6',
     author='Santiago Pestarini',
-    author_email='santiago@pestarini.com.ar',
+    author_email='santiagonob@gmail.com',
     packages=['radio'],
     package_data={'radio': ['data/*.json']},
     scripts=['bin/radio'],

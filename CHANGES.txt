@@ -1,7 +1,12 @@
-v0.0.5, 30 jul 2014 -- Updated some links.
+v0.0.6, 29 ago 2014 -- Updated some radio urls.
+                     - --list-all option added
+                     - --add/--remove parameters instead of -a/-d
 
 
-v0.0.4, 09 abr 2014 -- Add repo uri.
+v0.0.5, 30 jul 2014 -- Updated some radio urls.
+
+
+v0.0.4, 09 abr 2014 -- Added repo uri.
 
 
 v0.0.3, 09 abr 2014 -- Better instructions in README.
