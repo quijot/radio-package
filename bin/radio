@@ -6,10 +6,14 @@ from sys import argv
 from radio.control import *
 
 
-err_n_params = 'Error: Not enough or too many parameters\n\n%s' % usage()
+err_n_params = 'ERROR: Not enough or too many parameters. Try -h option.'
 
 
 if len(argv) < 2:
+    print(err_n_params)
+elif argv[1] in ['-v', '--version']:
+    print(version())
+elif argv[1] in ['-h', '--help']:
     print(usage())
 elif argv[1] in ['-l', '--list']:
     show_radio_list()

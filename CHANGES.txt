@@ -1,4 +1,8 @@
-v0.0.6, 29 ago 2014 -- Updated some radio urls.
+v0.0.8, 16 jan 2014 -- Massive radio urls update.
+                     - -v and --version parameters added
+
+
+v0.0.6, 29 aug 2014 -- Updated some radio urls.
                      - --list-all option added
                      - --add/--remove parameters instead of -a/-d
 
@@ -6,10 +10,10 @@ v0.0.6, 29 ago 2014 -- Updated some radio urls.
 v0.0.5, 30 jul 2014 -- Updated some radio urls.
 
 
-v0.0.4, 09 abr 2014 -- Added repo uri.
+v0.0.4, 09 apr 2014 -- Added repo uri.
 
 
-v0.0.3, 09 abr 2014 -- Better instructions in README.
+v0.0.3, 09 apr 2014 -- Better instructions in README.
 
 
 v0.0.2, 09 mar 2014 -- Add/update/delete radios interface.

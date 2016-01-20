@@ -10,6 +10,11 @@ f = open(radio_list_file)
 radio_list = json.load(f)
 f.close()
 
+__version__ = '0.0.9'
+
+def version():
+    return __version__
+
 
 def usage():
     usage = """Usage:

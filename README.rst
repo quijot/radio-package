@@ -19,7 +19,6 @@ Help
 
 Show some help::
 
-    $ radio
     $ radio -h
     $ radio --help
 
@@ -62,7 +61,7 @@ Remove radios (with superuser privileges)::
 
 For example::
 
-    $ radio --remove madre
+    $ radio --remove mitre
 
 To do
 =====
