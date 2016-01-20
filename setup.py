@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name='radio',
-    version='0.0.9',
+    version='0.0.11',
     author='Santiago Pestarini',
     author_email='santiagonob@gmail.com',
     packages=['radio'],

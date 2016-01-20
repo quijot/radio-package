@@ -11,7 +11,7 @@ f = open(radio_list_file)
 radio_list = json.load(f)
 f.close()
 
-__version__ = '0.0.9'
+__version__ = '0.0.11'
 
 def version():
     return __version__
@@ -20,13 +20,14 @@ def version():
 def usage():
     usage = """Usage:
     
-    $ radio radio_id            Play radio_id. Press <q> to quit.
+    $ radio radio_id            Play radio_id. Press <q> or Ctrl-<C> to quit.
     $ radio [-h|--help]         Show this usage help.
     $ radio -l|--list           List available radios.
     $ radio --list-all          List available radios and their urls.
     $ radio --add radio_id "radio name" url
                                 Add/update radio_id into radio list.
     $ radio --remove radio_id   Remove radio_id from radio list.
+    $ radio [-v|--version]	Show version number.
     """
     return usage
 
@@ -67,6 +68,8 @@ def play(radio_id):
             os.system('mplayer %s' % radio_list[radio_id]['url'])
         elif distutils.spawn.find_executable('ffplay'):
             os.system('ffplay -nodisp %s' % radio_list[radio_id]['url'])
+        elif distutils.spawn.find_executable('cvlc'):
+            os.system('cvlc %s' % radio_list[radio_id]['url'])
         else:
             print('Player not found')
 

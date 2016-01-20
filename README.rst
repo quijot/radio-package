@@ -2,7 +2,9 @@
 radio
 =====
 
-**radio** is a python script to **just listen to the radio** using mplayer.
+**radio** is a python script to **just listen to the radio** [*]_.
+
+.. [*] Requires **mplayer**, **ffplayer** (ffmpeg package) or **cvlc** (vlc package). Priority or alternative players yet to make *customizable* in future versions.
 
 Installation
 ============
@@ -39,7 +41,7 @@ Listen to the radio::
 
 where <radio_id> must be in the radio list as shown above.
     
-*Turn off* the radio by pressing "q" (as it uses mplayer).
+*Turn off* the radio by pressing "q" (if using mplayer) or with Ctrl-<C> (if using ffplay or cvlc).
 
 Add/update radios
 -----------------
@@ -63,22 +65,35 @@ For example::
 
     $ radio --remove mitre
 
+Version
+-------
+
+Show version::
+
+    $ radio -v
+    $ radio --version
+
 To do
 =====
 
 - support multiples lists
-- use curl/cvlc/whatever instead mplayer if available
+- support searching / filtering lists (something like *radio -s Rosario* to search radios from Rosario)
+- customize player and priorities or autodetect (something like *rifle* in the *ranger* package)
 - what more?
 - help me at https://github.com/quijot/radio-package
 
 Author
 ======
 
-* Santiago Pestarini <santiagonob@gmail.com>
+* `quijoT <https://github.com/quijoti>`_ (Santiago Pestarini <santiagonob@gmail.com>)
+
+Collaborators
+-------------
+
+* `sdeancos <https://github.com/sdeancos>`_ (Samuel de Ancos)
 
 License
 =======
 
 radio is licensed under the *do What The Fuck you want to Public License*, WTFPL. See the LICENSE file.
-
 
