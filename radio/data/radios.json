@@ -1,174 +1,162 @@
 {
-    "nacrosam": {
-        "url": "http://37.59.19.104:8026/", 
-        "name": "Radio Nacional Rosario AM 1300"
-    }, 
+    "rnma": {
+        "url": "http://radio.nodo50.org:8000/mediosalter.mp3",
+        "name": "Red Nacional de Medios Alternativos"
+    },
+    "vxparana": {
+        "url": "http://190.57.236.226:9830/",
+        "name": "Vorterix Paran\u00e1, Entre R\u00edos FM 91.7"
+    },
+    "latribu": {
+        "url": "http://vivo.fmlatribu.com:8000/latribu.mp3",
+        "name": "FM La Tribu 88.7"
+    },
     "quilpo": {
-        "url": "http://200.58.112.154:9510/", 
-        "name": "Radio Quilpo"
-    }, 
+        "url": "http://200.58.106.247:8630/",
+        "name": "Radio Quilpo, San Marcos Sierras, C\u00f3rdoba FM 107.7"
+    },
+    "chana": {
+        "url": "http://server1.veemesoft.com.ar:9764",
+        "name": "FM Chan\u00e1 100.5 Mhz, Victoria, Entre R\u00edos"
+    },
+    "khuelga": {
+        "url": "http://www.kehuelga.org:8000/radio.mp3",
+        "name": "K-HUELGA Radio libre y social FM 102.9"
+    },
     "redtl": {
-        "url": "rtmp://98.158.181.21:1935/radio/redtl", 
-        "name": "Red TL FM 105.5"
-    }, 
-    "nac": {
-        "url": "rtmp://186.33.227.196/rn_sc_rad1/rn_sc_rad1.stream", 
-        "name": "Radio Nacional AM 870"
-    }, 
-    "eter+": {
-        "url": "http://sc01.server54.net:7172", 
-        "name": "radio eter plus"
-    }, 
-    "eco": {
-        "url": "http://media203.services.digitar.net/EcoRadioRos", 
-        "name": "Eco Radio Rosario FM 92.3"
-    }, 
-    "metro": {
-        "url": "http://108.166.161.217:8615/metro.mp3 ",
-        "name": "Metro FM 95.1"
-    }, 
-    "elmundo": {
-        "url": "http://184.107.240.26:8010/vivo", 
-        "name": "Radio El Mundo AM 1070"
-    }, 
-    "vxbahia": {
-        "url": "http://74.222.2.108:12606", 
-        "name": "Vorterix Bah\u00eda Blanca FM 99.1"
-    }, 
-    "fm1": {
-        "url": "http://200.43.135.250:8088/fm1", 
-        "name": "FM 1 G\u00e1lvez FM 105.3"
-    }, 
+        "url": "rtmp://200.58.96.105:1935/radio/redtl",
+        "name": "Red TL Rosario FM 105.5"
+    },
     "cont": {
-        "url": "http://69.31.54.135/CONTINENTAL", 
+        "url": "http://69.31.54.135/CONTINENTAL",
         "name": "Radio Continental AM 590"
-    }, 
-    "rp": {
-        "url": "http://199.217.118.9:9988", 
-        "name": "Rock&Pop FM 95.9"
-    }, 
-    "lt8": {
-        "url": "http://media203.services.digitar.net/lt8", 
-        "name": "La Ocho LT8 AM 830"
-    }, 
-    "mitre": {
-        "url": "http://buecrplb01.cienradios.com.ar/Mitre790.mp3", 
-        "name": "Radio Mitre AM 790"
-    }, 
-    "dpros": {
-        "url": "http://media203.services.digitar.net/delplatarosario", 
-        "name": "Del Plata Rosario FM 107.5"
-    }, 
-    "vxbarilo": {
-        "url": "http://63.141.238.139:8056", 
-        "name": "Vorterix Bariloche FM 95.9"
-    }, 
-    "airelibre": {
-        "url": "http://95.154.254.81:31438", 
-        "name": "Aire Libre FM 91.3"
-    }, 
-    "eter": {
-        "url": "http://sc01.server54.net:7184", 
-        "name": "radio eter"
-    }, 
-    "colifata": {
-        "url": "http://giss.tv:8000/radiocolifata.mp3", 
-        "name": "Radio La Colifata FM 100.1"
-    }, 
-    "lt3": {
-        "url": "http://media203.services.digitar.net/lt3", 
-        "name": "LT3 AM 680"
-    }, 
-    "coop": {
-        "url": "http://rcoop.cnwks.ws:8358/", 
-        "name": "Radio Cooperativa AM 770"
-    }, 
+    },
+    "asamblea": {
+        "url": "rtmp://sisteplay1.streamwowza.com:1935/radiohd/26705",
+        "name": "Radio Asamblea (Radio Comunitaria) FM 94.1"
+    },
     "unr": {
         "url": "http://nubroadcast.com.ar:8000/radio016.aac",
         "name": "Radio Universidad UNR FM 103.3"
-    }, 
-    "vxros": {
-        "url": "rtmp://200.58.96.105:1935/radio/ON", 
-        "name": "Vorterix Rosario FM 102.1"
-    }, 
-    "cabe": {
-        "url": "http://50.22.217.204:8393/", 
-        "name": "Planeta Cabez\u00f3n Radio OnLine"
-    }, 
-    "la100": {
-        "url": "http://buecrplb01.cienradios.com.ar/la100.mp3", 
-        "name": "La 100 FM 99.9"
-    }, 
-    "rnma": {
-        "url": "http://radio.nodo50.org:8000/mediosalter.mp3", 
-        "name": "Red Nacional de Medios Alternativos"
-    }, 
-    "vorterix": {
-        "url": "http://199.217.118.10:9776", 
-        "name": "Vorterix FM 103.1"
-    }, 
-    "madre": {
-        "url": "http://200.68.81.65:8000/am530", 
-        "name": "Radio Madre AM 530"
-    }, 
-    "latina": {
-        "url": "http://200.43.135.250:8088/fmlatina", 
-        "name": "Latina G\u00e1lvez FM 92.5"
-    }, 
-    "nacrosfm": {
-        "url": "http://37.59.19.104:8170/", 
-        "name": "Radio Nacional Rosario FM 104.5"
-    }, 
-    "vxparana": {
-        "url": "http://200.58.116.222:8000", 
-        "name": "Vorterix Paran\u00e1 FM 91.7"
-    }, 
-    "latribu": {
-        "url": "http://vivo.fmlatribu.com:8000/latribu.mp3", 
-        "name": "FM La Tribu 88.7"
-    }, 
-    "frecm": {
-        "url": "http://streamwowza.com:1935/9670/default.stream/playlist.m3u8", 
-        "name": "Frecuencia Mutual FM 104.1 Rosario"
-    }, 
-    "khuelga": {
-        "url": "http://www.kehuelga.org:8000/radio.mp3", 
-        "name": "K-HUELGA Radio libre y social FM 102.9"
-    }, 
-    "lared": {
-        "url": "rtmp://vivolared.multimediosamerica.com.ar/streamlared/&streamId=lared", 
-        "name": "La Red AM 910"
-    }, 
-    "ec": {
-        "url": "http://184.107.187.146:9040/fm957", 
-        "name": "Estaci\u00f3n del Centro G\u00e1lvez FM 95.7"
-    }, 
-    "lt2": {
-        "url": "http://209.160.20.34/radio2", 
-        "name": "Radio 2 AM 1230"
-    }, 
-    "gros": {
-        "url": "http://media203.services.digitar.net/granrosario", 
-        "name": "Radio Gran Rosario FM 88.9"
-    }, 
-    "laredros": {
-        "url": "http://media203.services.digitar.net/lared", 
-        "name": "La Red Rosario FM 102.7"
-    }, 
+    },
     "dp": {
-        "url": "http://active.telecomcdn.com/delplata/delplata", 
+        "url": "http://lsddelplatahls-lh.akamaihd.net/i/amdelplataHLS_1@126173/master.m3u8",
         "name": "Del Plata AM 1030"
-    }, 
-    "nacrock": {
-        "url": "http://streamlky.alsolnet.com:8270/sc_rad39", 
-        "name": "Nacional Rock FM 93.7"
-    }, 
+    },
+    "cabe": {
+        "url": "http://108.163.190.211:9718/",
+        "name": "Planeta Cabez\u00f3n Radio OnLine"
+    },
+    "espec": {
+        "url": "http://streaming.espectador.com:80/envivo",
+        "name": "Radio El Espectador AM 810 Uruguay"
+    },
+    "nacrosam": {
+        "url": "rtmp://186.33.227.195/rn_sc_rad41/mp3:rn_sc_rad41.stream",
+        "name": "Radio Nacional Rosario FM 104.5"
+    },
+    "eter+": {
+        "url": "http://box01.sonic.fm:7172/",
+        "name": "radio eter plus"
+    },
+    "fm1": {
+        "url": "http://190.123.242.250:8088/fm1",
+        "name": "FM 1 G\u00e1lvez FM 105.3"
+    },
+    "rp": {
+        "url": "rtmp://r20057.smi.vmf.edge-apps.net/magma-apps/rocknpop_radio1_high",
+        "name": "Rock&Pop Buenos AiresFM 95.9"
+    },
+    "la100": {
+        "url": "http://buecrplb01.cienradios.com.ar/la100.mp3",
+        "name": "La 100 FM 99.9"
+    },
+    "lared": {
+        "url": "http://lsdlrhls-lh.akamaihd.net/i/laredHLS_1@59923/index_1_a-b.m3u8",
+        "name": "La Red AM 910"
+    },
+    "colifata": {
+        "url": "http://streamall.alsolnet.com:443/lacolifata",
+        "name": "LT22 Radio La Colifata FM 100.3MHz Buenos Aires"
+    },
+    "mitre": {
+        "url": "http://buecrplb01.cienradios.com.ar/Mitre790.mp3",
+        "name": "Radio Mitre AM 790"
+    },
     "idcult": {
-        "url": "http://streaming.radiolinksmedia.com:8580/", 
+        "url": "http://streaming.radiolinksmedia.com:8580/",
         "name": "Radio Igualdad Cultural"
-    }, 
+    },
+    "metro": {
+        "url": "http://mp3.metroaudio1.stream.avstreaming.net:7200/metro",
+        "name": "Metro FM 95.1"
+    },
+    "madre": {
+        "url": "http://200.68.81.65:8000/am530",
+        "name": "Radio Madre AM 530"
+    },
     "750": {
-        "url": "http://vivo.radioam750.com.ar:8000/vivo.mp3", 
+        "url": "http://vivo.radioam750.com.ar:8000/vivo.mp3",
         "name": "AM750 - LRL 203 AM750 - Buenos Aires"
+    },
+    "airelibre": {
+        "url": "http://83.142.226.45:4813",
+        "name": "Aire Libre Radio Comunitaria FM 91.3"
+    },
+    "nacsf": {
+        "url": "rtmp://186.33.227.195/rn_sc_rad14/mp3:rn_sc_rad14.stream",
+        "name": "Radio Nacional Santa Fe AM 540"
+    },
+    "super": {
+        "url": "http://media203.services.digitar.net:8080/delplatarosario.mp3",
+        "name": "Super FM 107.5"
+    },
+    "eco": {
+        "url": "http://media203.services.digitar.net:8020/radio.mp3",
+        "name": "Ecoradio Rosario FM 92.3"
+    },
+    "elmundo": {
+        "url": "http://radiostream.elmundoradio.com:8332/",
+        "name": "Radio El Mundo AM 1070"
+    },
+    "eter": {
+        "url": "http://sc01.server54.net:7184/",
+        "name": "radio eter"
+    },
+    "nac": {
+        "url": "rtmp://186.33.227.193/rn_sc_rad1/mp3:rn_sc_rad1.stream",
+        "name": "Radio Nacional AM 870"
+    },
+    "nacrock": {
+        "url": "rtmp://186.33.227.200/rn_sc_rad39/mp3:rn_sc_rad39.stream",
+        "name": "Nacional Rock FM 93.7"
+    },
+    "lt3": {
+        "url": "http://108.166.161.217:8517/stream",
+        "name": "LT3 AM 680 Rosario"
+    },
+    "cualquiera": {
+        "url": "rtmp://media.siglocero.net:1935/190/190.stream",
+        "name": "Radio Cualquiera 94.3 Mhz, Paran\u00e1, Entre R\u00edos"
+    },
+    "lt2": {
+        "url": "http://radio2.radio.rosario3.com:8000/",
+        "name": "Radio 2 AM 1230 Rosario"
+    },
+    "coop": {
+        "url": "http://rcoop.cnwks.ws:8358/",
+        "name": "Radio Cooperativa AM 770"
+    },
+    "latina": {
+        "url": "http://190.123.242.250:8088/fmlatina",
+        "name": "Latina G\u00e1lvez FM 92.5"
+    },
+    "ec": {
+        "url": "http://184.107.187.146:9040/fm957",
+        "name": "Estaci\u00f3n del Centro G\u00e1lvez FM 95.7"
+    },
+    "lt8": {
+        "url": "http://media203.services.digitar.net:8040/lt8radio.mp3",
+        "name": "La Ocho LT8 AM 830 Rosario"
     }
 }
