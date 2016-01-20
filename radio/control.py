@@ -3,6 +3,7 @@
 
 import os
 import json
+import distutils.spawn
 
 
 radio_list_file = os.path.join(os.path.dirname(__file__), 'data/radios.json') 
@@ -62,5 +63,10 @@ def play(radio_id):
     if radio_list.get(radio_id, 'error') == 'error':
         print(usage())
     else:
-        os.system('mplayer %s' % radio_list[radio_id]['url'])
+        if distutils.spawn.find_executable('mplayer'):
+            os.system('mplayer %s' % radio_list[radio_id]['url'])
+        elif distutils.spawn.find_executable('ffplay'):
+            os.system('ffplay -nodisp %s' % radio_list[radio_id]['url'])
+        else:
+            print('Player not found')
 
