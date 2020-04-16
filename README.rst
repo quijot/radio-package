@@ -36,7 +36,7 @@ or else add it with
 
 General usage:
 
-  ``radio [OPTIONS] COMMAND [ARGS]...``
+``radio [OPTIONS] COMMAND [ARGS]...``
 
 Options:
 
