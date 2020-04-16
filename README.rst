@@ -2,82 +2,114 @@
 radio
 =====
 
-**radio** is a python script to **just listen to the radio** [*]_.
-
-.. [*] Requires **mplayer**, **ffplayer** (ffmpeg package) or **cvlc** (vlc package). Priority or alternative players yet to make *customizable* in future versions.
+**radio** is a command line tool to **just listen to the radio**.
 
 Installation
 ============
 
-Run in terminal (with superuser privilegies)::
-
-    $ pip install radio
+    ``pip install radio``
 
 Usage
 =====
 
-Help
-----
+    ``radio [OPTIONS] COMMAND [ARGS]...``
 
-Show some help::
+Options:
 
-    $ radio -h
-    $ radio --help
+  --version  Show the version and exit.
+  --help     Show this message and exit.
 
-List radios
------------
+Commands
+--------
 
-List available radios::
+  add     Add or update a radio information.
+  play    Play a radio.
+  remove  Remove a radio information.
+  search  Search radio in the available radios.
+  show    Show all radios information.
 
-    $ radio -l          # List available radios
-    $ radio --list-all  # List radios and url
+add
+^^^
 
-Play radios
------------
+Add or update a radio information.
 
-Listen to the radio::
+Usage:
+    ``radio add [OPTIONS] RADIO_ID``
 
-    $ radio <radio_id>
+Options:
+  -n, --name TEXT  Radio complete fancy name.  [required]
+  -u, --url TEXT   Radio playable streaming url.  [required]
+  --help           Show this message and exit.
 
-where <radio_id> must be in the radio list as shown above.
+For example::
+
+    radio add convos --name "Radio Con Vos FM 89.9" --url https://server1.stweb.tv/rcvos/live/chunks.m3u8
+
+play
+^^^^
+
+Play a radio.
+
+Usage:
+    ``radio play [OPTIONS] RADIO_ID``
+
+Options:
+  --help  Show this message and exit.
     
-*Turn off* the radio by pressing "q" (if using mplayer) or with Ctrl-<C> (if using ffplay or cvlc).
+*Turn off* the radio by pressing "q" or with Ctrl-<C>.
 
-Add/update radios
------------------
+remove
+^^^^^^
 
-Add/update radios (with superuser privileges)::
+Remove a radio information.
 
-    $ radio --add <radio_id> <radio_name> <radio_url>
+Usage:
+    ``radio remove [OPTIONS] RADIO_ID``
 
-For example::
+Options:
+  --help  Show this message and exit.
 
-    $ radio --add madre "Radio Madre AM 530" http://200.68.81.65:8000/am530
+search
+^^^^^^
 
-Remove radios
--------------
+Search radio in the available radios.
 
-Remove radios (with superuser privileges)::
+Usage:
+    ``radio search [OPTIONS] STRING``
 
-    $ radio --remove <radio_id>
+Options:
+  -i, --invert  Invert filter.
+  --help        Show this message and exit.
 
-For example::
+show
+^^^^
 
-    $ radio --remove mitre
+Show all radios information.
 
-Version
--------
+Usage:
+    ``radio show [OPTIONS]``
 
-Show version::
+Options:
+  --urls   Also show Streaming URLS.
+  --count  Show how many radios are available.
+  --help   Show this message and exit
 
-    $ radio -v
-    $ radio --version
+How does it *plays* the radio?
+==============================
 
-To do
-=====
+It requires any of the following media player:
 
-- support multiples lists
-- support searching / filtering lists (something like *radio -s Rosario* to search radios from Rosario)
+- **ffplayer** (ffmpeg package)
+- **cvlc** (vlc package)
+- **mplayer**
+
+Priority or alternative players yet to make *customizable* in future versions.
+
+ToDo
+====
+
+- support multiples radio lists
+- support downloading radio lists from somewhere
 - customize player and priorities or autodetect (something like *rifle* in the *ranger* package)
 - what more?
 - help me at https://github.com/quijot/radio-package
@@ -85,7 +117,7 @@ To do
 Author
 ======
 
-* `quijoT <https://github.com/quijoti>`_ (Santiago Pestarini <santiagonob@gmail.com>)
+* `quijoT <https://github.com/quijot>`_ (Santiago Pestarini <santiagonob@gmail.com>)
 
 Collaborators
 -------------
@@ -96,4 +128,3 @@ License
 =======
 
 radio is licensed under the *do What The Fuck you want to Public License*, WTFPL. See the LICENSE file.
-
