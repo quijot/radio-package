@@ -4,95 +4,129 @@ radio
 
 **radio** is a command line tool to **just listen to the radio**.
 
+.. contents::
+
 Installation
 ============
 
-    ``pip install radio``
+  ``pip install radio``
+
+or
+
+  ``pip install --upgrade radio``
 
 Usage
 =====
+
+Just play the radio like this...
+
+  ``radio play <id>``
+
+Look for available radios with
+
+  ``radio show``
+
+Search for you favourite radio with
+
+  ``radio search <term>``
+
+or else add it with
+
+  ``radio add <id> --name "My Favourite Radio" --url <streaming-url>``
+
+General usage:
 
     ``radio [OPTIONS] COMMAND [ARGS]...``
 
 Options:
 
-  --version  Show the version and exit.
-  --help     Show this message and exit.
+--version  Show the version and exit.
+--help     Show this message and exit.
 
 Commands
---------
+========
 
-  add     Add or update a radio information.
-  play    Play a radio.
-  remove  Remove a radio information.
-  search  Search radio in the available radios.
-  show    Show all radios information.
+:add:     Add or update a radio information.
+:play:    Play a radio.
+:remove:  Remove a radio information.
+:search:  Search radio in the available radios.
+:show:    Show all radios information.
 
 add
-^^^
+---
 
 Add or update a radio information.
 
 Usage:
-    ``radio add [OPTIONS] RADIO_ID``
+
+  ``radio add [OPTIONS] RADIO_ID``
 
 Options:
-  -n, --name TEXT  Radio complete fancy name.  [required]
-  -u, --url TEXT   Radio playable streaming url.  [required]
-  --help           Show this message and exit.
+
+-n, --name TEXT  Radio complete fancy name.  [required]
+-u, --url TEXT   Radio playable streaming url.  [required]
+--help           Show this message and exit.
 
 For example::
 
     radio add convos --name "Radio Con Vos FM 89.9" --url https://server1.stweb.tv/rcvos/live/chunks.m3u8
 
 play
-^^^^
+----
 
 Play a radio.
 
 Usage:
-    ``radio play [OPTIONS] RADIO_ID``
+
+  ``radio play [OPTIONS] RADIO_ID``
 
 Options:
-  --help  Show this message and exit.
+
+--help  Show this message and exit.
     
 *Turn off* the radio by pressing "q" or with Ctrl-<C>.
 
 remove
-^^^^^^
+------
 
 Remove a radio information.
 
 Usage:
-    ``radio remove [OPTIONS] RADIO_ID``
+
+  ``radio remove [OPTIONS] RADIO_ID``
 
 Options:
-  --help  Show this message and exit.
+
+--help  Show this message and exit.
 
 search
-^^^^^^
+------
 
 Search radio in the available radios.
 
 Usage:
-    ``radio search [OPTIONS] STRING``
+
+  ``radio search [OPTIONS] STRING``
 
 Options:
-  -i, --invert  Invert filter.
-  --help        Show this message and exit.
+
+-i, --invert  Invert filter.
+--help        Show this message and exit.
 
 show
-^^^^
+----
 
 Show all radios information.
 
 Usage:
-    ``radio show [OPTIONS]``
+
+  ``radio show [OPTIONS]``
 
 Options:
-  --urls   Also show Streaming URLS.
-  --count  Show how many radios are available.
-  --help   Show this message and exit
+
+--urls   Also show Streaming URLS.
+--count  Show how many radios are available.
+--help   Show this message and exit
 
 How does it *plays* the radio?
 ==============================
@@ -108,9 +142,9 @@ Priority or alternative players yet to make *customizable* in future versions.
 ToDo
 ====
 
-- support multiples radio lists
+- support multiples radio lists (is it useful?)
 - support downloading radio lists from somewhere
-- customize player and priorities or autodetect (something like *rifle* in the *ranger* package)
+- customize player and priorities or autodetect (something like *rifle* in the *ranger-fm* package)
 - what more?
 - help me at https://github.com/quijot/radio-package
 
