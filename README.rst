@@ -9,34 +9,34 @@ radio
 Installation
 ============
 
-  ``pip install radio``
+``pip install radio``
 
 or
 
-  ``pip install --upgrade radio``
+``pip install --upgrade radio``
 
 Usage
 =====
 
 Just play the radio like this...
 
-  ``radio play <id>``
+``radio play <id>``
 
 Look for available radios with
 
-  ``radio show``
+``radio show``
 
 Search for you favourite radio with
 
-  ``radio search <term>``
+``radio search <term>``
 
 or else add it with
 
-  ``radio add <id> --name "My Favourite Radio" --url <streaming-url>``
+``radio add <id> --name "My Favourite Radio" --url <streaming-url>``
 
 General usage:
 
-    ``radio [OPTIONS] COMMAND [ARGS]...``
+  ``radio [OPTIONS] COMMAND [ARGS]...``
 
 Options:
 
@@ -59,7 +59,7 @@ Add or update a radio information.
 
 Usage:
 
-  ``radio add [OPTIONS] RADIO_ID``
+``radio add [OPTIONS] RADIO_ID``
 
 Options:
 
@@ -78,7 +78,7 @@ Play a radio.
 
 Usage:
 
-  ``radio play [OPTIONS] RADIO_ID``
+``radio play [OPTIONS] RADIO_ID``
 
 Options:
 
@@ -93,7 +93,7 @@ Remove a radio information.
 
 Usage:
 
-  ``radio remove [OPTIONS] RADIO_ID``
+``radio remove [OPTIONS] RADIO_ID``
 
 Options:
 
@@ -106,7 +106,7 @@ Search radio in the available radios.
 
 Usage:
 
-  ``radio search [OPTIONS] STRING``
+``radio search [OPTIONS] STRING``
 
 Options:
 
@@ -120,7 +120,7 @@ Show all radios information.
 
 Usage:
 
-  ``radio show [OPTIONS]``
+``radio show [OPTIONS]``
 
 Options:
 
