@@ -33,7 +33,7 @@ def find_installed_player():
     """Find an installed player."""
     # find installed player
     if shutil.which("ffplay"):
-        player = ["ffplay", "ffplay", "-nodisp"]
+        player = ["ffplay", "ffplay", "-nodisp", "-loglevel", "panic"]
     elif shutil.which("cvlc"):
         player = ["cvlc", "cvlc"]
     elif shutil.which("mplayer"):
