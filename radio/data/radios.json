@@ -19,6 +19,10 @@
         "name": "Radio Continental AM 590",
         "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CONTINENTAL_SC"
     },
+    "convos": {
+        "name": "Radio Con Vos FM 89.9",
+        "url": "https://server1.stweb.tv/rcvos/live/chunks.m3u8"
+    },
     "coop": {
         "name": "Radio Cooperativa AM 770",
         "url": "http://rcoop.cnwks.ws:8358/"
@@ -86,6 +90,10 @@
     "nacros": {
         "name": "Radio Nacional LRA 5 Rosario",
         "url": "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad41"
+    },
+    "pop": {
+        "name": "Radio Pop FM 101.5",
+        "url": "https://s11.stweb.tv/popradio/live/chunks.m3u8"
     },
     "quilpo": {
         "name": "Radio Quilpo, San Marcos Sierras, C\u00f3rdoba FM 107.7",
